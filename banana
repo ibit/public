@@ -1,0 +1,5 @@
+# 404エラーページ設定
+ErrorDocument 404 /404.php
+
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9/_-]+)$ /$1.php [L]
